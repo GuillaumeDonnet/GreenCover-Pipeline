@@ -1,6 +1,7 @@
 # GreenCover Pipeline 🌿
 
-End‑to‑end **Sentinel‑2 ➜ Land‑Cover ➜ API ➜ React Dashboard** project that mirrors Cyclops’ stack. Clone, push and demo.
+End‑to‑end **Sentinel‑2 ➜ Land‑Cover ➜ API ➜ React Dashboard** 
+Clone, push and demo.
 
 ## Features
 1. **Ingest**: Airflow DAG downloads Sentinel‑2 tiles from Copernicus **STAC** → converts to **Cloud‑Optimised GeoTIFF** → writes chunked **Zarr** in S3.
